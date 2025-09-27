@@ -257,7 +257,7 @@ export default function Dashboard() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <Image src="/logo.png" alt="Eshada's Task" width={125} height={100} className="" />
-              <h1 className="text-xl font-bold text-foreground">Eshada's Task</h1>
+              <h1 className="text-xl font-bold text-foreground max-md:invisible">Eshada's Task</h1>
             </div>
             <div className="flex items-center gap-4">
               <span className="text-sm text-muted-foreground">Welcome, {user.email}</span>
